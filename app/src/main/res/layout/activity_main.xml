@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A000000"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/qr_scan"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+<TextView
+    android:id="@+id/heanding"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/logo"
+    android:layout_marginTop="20dp"
+    android:textStyle="bold"
+    android:text="Welcome to scanner code"
+    android:gravity="center"
+    android:textSize="25dp"
+    android:textColor="@color/black"
+    android:padding="4dp"/>
+
+
+    <Button
+        android:id="@+id/btnScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textAllCaps="false"
+        android:text="Scan Code"
+        android:textSize="20dp"
+        android:backgroundTint="#99FFAB00"
+        android:layout_below="@+id/heanding"/>
+
+
+
+
+
+</RelativeLayout>
+
